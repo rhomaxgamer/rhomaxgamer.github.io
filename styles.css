@@ -1,13 +1,13 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
-    margin: 1px;
+    margin: 0px;
 }
 body {
     text-align: center;
-    background-image:url(https://i.pinimg.com/originals/ac/95/ff/ac95ffa91025ca875854caf5e179bf38.jpg);
+    background-image:url(https://cdn.discordapp.com/attachments/912963237149020190/953083974580830238/ac95ffa91025ca875854caf5e179bf38-1.png);
     background-attachment: scroll;
-    width: 1600px;
-    height: 1080px;
+    width: 100%;
+    height: 100%;
 
 }
 header {
@@ -24,20 +24,23 @@ header {
 }
 
 .boton {
-    height: 150px;
-    width: 150px;
+    height: 80%;
+    width: 80%;
     margin: 5px;
     padding: 10px;
     border-radius: 150px;
-    background-color: rgb(172, 44, 44);
-    font-size: 25px;
+    background-color: rgb(172, 44, 144);
+    border-color: rgb(126, 126, 126);
+    border-style: double;
+    border-width: 4px;
+    font-size: 120%;
     color: aliceblue;
 }
 .boton:hover{
-    background-color: rgb(236, 75, 75);
+    background-color: rgb(214, 57, 180);
 }
 .boton:active{
-    background-color: rgb(158, 19, 19);
+    background-color: rgb(114, 29, 96);
 }
 
 .divition {
@@ -55,4 +58,6 @@ footer{
     display: block;
     width: auto;
     background-color: rgb(59, 59, 59,0.4);
+    font-weight: 600;
+    color: aliceblue;
 }
