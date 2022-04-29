@@ -1,0 +1,11 @@
+#accesos {
+    display: flex;
+}
+
+#accesos div {
+    padding: 2%;
+}
+
+#accesos img {
+    height: 100px;
+}
