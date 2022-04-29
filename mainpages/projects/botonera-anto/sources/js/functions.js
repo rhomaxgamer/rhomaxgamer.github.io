@@ -5,9 +5,5 @@ function reproducir(audio){
     //sonido.playbackRate = 2; 
 }
 
-function mensajeDs(){
-    let elemento = document.getElementById('cws-img');
-    elemento.addEventListener("mouseover", mostrarMsj, false)
-}
 
 window.addEventListener('load', mensajeDs, false)
